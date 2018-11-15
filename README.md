@@ -5,7 +5,9 @@ Small challenge to find the best phone operator to use based on call price
 
 - We'll be using Python as programing language as it is pretty straitforward to build a fast prototype of the solution, and also as it offers many libraries aimed at making large datasets manipulation easier (`pandas`, `numpy`, ...)
 
-- We'll be using a Jupyter notebook in order to have a maximum of ergonomy and a beatiful visual presentation. Also, there will be no need to download / re-run the code as it is already displayed in the notebook.
+- We'll be using a Jupyter notebook in order to have a maximum of ergonomy and a beautiful visual presentation. Also, there will be no need to download or re-run the code as the results is already displayed in the notebook.
+
+- Unit Testing will be done within the same notebook, in separated cells to show directly that everything runs as expected.
 
 - In case we want to have a production-ready prototype that deals with larger datasets, one of the best choices I propose is to use `Apache Spark` with the `Scala API`, as it is especially aimed for Big Data, and because it runs on the JVM.
 
@@ -19,4 +21,4 @@ Small challenge to find the best phone operator to use based on call price
 
 Now you should be all set to run the notebook
 
-- `(venv) $ jupyter notebook prototyping.ipynb
+- `(venv) $ jupyter notebook prototyping.ipynb`
