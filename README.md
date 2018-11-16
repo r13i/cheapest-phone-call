@@ -3,7 +3,7 @@ Small challenge to find the best phone operator to use based on call price
 
 ### Methodology
 
-- We'll be using Python as programing language as it is pretty straitforward to build a fast prototype of the solution, and also as it offers many libraries aimed at making large datasets manipulation easier (`pandas`, `numpy`, ...)
+- We'll be using Python as programing language as it is pretty straightforward to build a fast prototype of the solution, and also as it offers many libraries aimed at making large datasets manipulation easier (`pandas`, `numpy`, ...)
 
 - We'll be using a Jupyter notebook in order to have a maximum of ergonomy and a beautiful visual presentation. Also, there will be no need to download or re-run the code as the results is already displayed in the notebook.
 
@@ -17,7 +17,7 @@ Small challenge to find the best phone operator to use based on call price
 - `$ cd cheapest-phone-call`
 - Create a virtual environment to avoid dealing with dependency issues and conflicts : `$ virtualenv -p python3 venv`
 - `$ source ./venv/bin/activate`. You'll start seeing a `(venv)` before the shell prompt.
-- `(venv) $ pip3 install -r requirements.txt` in order to install all the requirements.
+- `(venv) $ pip install -r requirements.txt` in order to install all the requirements.
 
 Now you should be all set to run the notebook
 
